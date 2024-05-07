@@ -6,6 +6,6 @@ def kabisat(tahun):
         return False
     
 if kabisat(tahun):
-    print(tahun, "adalah tahun kabisat.")
+    print("tahun",tahun, "merupakan tahun kabisat.")
 else:
-    print(tahun,"bukan tahun kabisat.")
+    print("tahun",tahun,"bukan tahun kabisat.")
